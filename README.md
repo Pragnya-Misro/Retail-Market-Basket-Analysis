@@ -1,19 +1,18 @@
-****Market Basket Analysis using Apriori Algorithm
-
-## 📊 Project Overview
+Market Basket Analysis using Apriori Algorithm
+Project Overview
 This project performs **Market Basket Analysis** on a groceries dataset using the Apriori algorithm.
 Association rule mining helps identify relationships between products that are frequently purchased together. These insights can assist retailers in making informed decisions related to product placement, promotions, and recommendations.
 
-##  Dataset
-- **Name**: Groceries Dataset
-- **File Used**: `Groceries_dataset.csv`
-- **Attributes**: `Member_number`, `Date`, `itemDescription`
+ Dataset
+- Name: Groceries Dataset
+- File Used: `Groceries_dataset.csv`
+- Attributes: `Member_number`, `Date`, `itemDescription`
 
----
 
-##  Technologies Used
-- **Language**: Python
-- **Libraries**:
+
+ Technologies Used
+1.Language: Python
+2. Libraries:
   - `pandas`
   - `numpy`
   - `itertools`
@@ -21,19 +20,18 @@ Association rule mining helps identify relationships between products that are f
   - `collections`
   - `apyori` (Apriori Algorithm package)
 
----
 
-** Project Workflow**
-1. **Load Dataset**: Read and explore the groceries dataset.
-2. **Data Preprocessing**: Handle date format and create transactions based on member and date.
-3. **Exploratory Data Analysis (EDA)**: Visualize and analyze transaction samples.
-4. **Apply Apriori Algorithm**: Use `apyori` library to generate frequent itemsets and association rules.
-5. **Display Rules**: Extract and display the discovered rules with support, confidence, and lift.
-6. **Conclusion**: Summarize the business insights obtained.
 
----
+Project Workflow
+1. Load Dataset: Read and explore the groceries dataset.
+2. Data Preprocessing: Handle date format and create transactions based on member and date.
+3. Exploratory Data Analysis (EDA): Visualize and analyze transaction samples.
+4. Apply Apriori Algorithm: Use `apyori` library to generate frequent itemsets and association rules.
+5. Display Rules: Extract and display the discovered rules with support, confidence, and lift.
+6. Conclusion: Summarize the business insights obtained.
 
-## Output Example:
+
+ Output Example:
 Rule: {'whole milk'} --> {'other vegetables'}
 Support: 0.025
 Confidence: 0.42
