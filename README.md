@@ -44,9 +44,7 @@ Lift: 3.50
 **Conclusion:**
 
 1.The Apriori algorithm successfully identified meaningful associations between products.
-
 2.These rules can enhance cross-selling opportunities and optimize product placements.
-
 3.For larger datasets, the FP-Growth algorithm can be explored for better performance.
 
 **How to Run This Project:**
